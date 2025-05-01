@@ -16,10 +16,6 @@
     height: 100vh;
 }
 
-.h-100 {
-    height: 100%;
-}
-
 .w-100 {
     width: 100%;
 }
@@ -145,10 +141,42 @@ nav {
     color: #1E71FF;
 }
 
-.pt-100{
+.pt-100 {
     padding-top: 100px;
 }
 
-.pb-110{
+.pb-110 {
     padding-bottom: 110px;
+}
+
+.section2-heading {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 128%;
+    text-align: center;
+    color: #2B353E;
+    padding-top: 70px;
+}
+
+.section2-content {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 162%;
+    text-align: center;
+    color: #6B7278;
+    max-width: 566px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section2-img{
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.padding-left-right{
+    padding-left: 170px;
+    padding-right: 170px;
 }
