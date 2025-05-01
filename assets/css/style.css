@@ -16,7 +16,7 @@
     height: 100vh;
 }
 
-.w-100 {
+.section {
     width: 100%;
 }
 
@@ -87,6 +87,9 @@ nav {
 
 .col-6 {
     width: 50%;
+}
+
+.col-padding {
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -141,6 +144,10 @@ nav {
     color: #1E71FF;
 }
 
+.section1-img {
+    width: 100%;
+}
+
 .pt-100 {
     padding-top: 100px;
 }
@@ -171,12 +178,106 @@ nav {
     margin-bottom: 50px;
 }
 
-.section2-img{
+.section2-img {
     width: 100%;
     padding-bottom: 70px;
 }
 
-.padding-left-right{
+.padding-left-right {
     padding-left: 170px;
     padding-right: 170px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.section3-background {
+    background-color: #E9F1FF;
+}
+
+.section3-img {
+    width: 100%;
+    left: -10%;
+}
+
+.card1 {
+    max-width: 467px;
+}
+
+.section3-heading {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 128%;
+    color: #2B353E;
+    margin-bottom: 30px;
+}
+
+.section3-content {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 162%;
+    color: #6B7278;
+    margin-bottom: 60px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.button3 {
+    width: 167px;
+    height: 50px;
+    border-radius: 60px;
+    border: 1.5px solid #1E71FF;
+    background-color: #E9F1FF;
+    transition: background-color 250ms linear;
+}
+
+.button3-text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 100%;
+    color: #1E71FF;
+    transition: color 250ms linear;
+}
+
+.button3:hover {
+    background-color: #1E71FF;
+    color: #FFFFFF;
+}
+
+.mb-90 {
+    margin-bottom: 90px;
+}
+
+.line {
+    width: 167px;
+    border: 1px solid #CCD5E2;
+    margin-bottom: 42.21px;
+}
+
+.stars {
+    height: 19.02px;
+    margin-right: 25.51px;
+}
+
+.description {
+    max-width: 274px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 162%;
+    color: #6B7278;
+}
+
+.description span{
+    font-weight: 700;
 }
