@@ -455,6 +455,10 @@ nav {
         width: 100%;
     }
 
+    .align-items{
+        align-items: center;
+    }
+
     .section3-heading {
         margin-bottom: 10px;
     }
@@ -620,5 +624,18 @@ nav {
 
     .d-sm-flex {
         display: flex;
+    }
+
+    .box{
+        display: none;
+    }
+
+    .col-sm-12{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .col-0{
+        width: 0;
     }
 }
